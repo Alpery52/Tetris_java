@@ -13,6 +13,9 @@ The project is organized into several packages, adhering to the MVC pattern:
 ### Model
 - `no.uib.inf101.grid`: Contains classes for managing the game grid.
 - `no.uib.inf101.model`: Includes the game model and tetromino-related classes.
+  
+
+<img align="right" width=200 src="/rmp/start.png">
 
 ### View
 - `no.uib.inf101.tetris.view`: Contains classes for the game view.
@@ -22,6 +25,8 @@ The project is organized into several packages, adhering to the MVC pattern:
 
 ### Additional Components
 - `no.uib.inf101.tetris.midi`: Includes the background music functionality.
+
+<img align="right" width=200 src="/rmp/GameOver.png">
 
 ## Key Components
 
