@@ -11,6 +11,7 @@ This project is an implementation of the classic game Tetris in Java. It follows
 The project is organized into several packages, adhering to the MVC pattern:
 
 <img align="right" width=200 src="/rmp/start.png">
+
 ### Model
 - `no.uib.inf101.grid`: Contains classes for managing the game grid.
 - `no.uib.inf101.model`: Includes the game model and tetromino-related classes.
@@ -68,14 +69,6 @@ To run the game, execute the `main` method in the `TetrisMain` class.
   3. Game Over
 - Colorful and responsive user interface
 
-## Game Screenshots
-
-The game includes three main visual states:
-
-1. **Start Screen** (start.png): Displays when the game is launched, welcoming the player.
-2. **In-Game Screen** (inGame.png): Shows the active gameplay with the current tetromino and game board.
-3. **Game Over Screen** (gameOver.png): Appears when the game ends, displaying the final score.
-
 ## MVC Architecture
 
 This project strictly follows the Model-View-Controller (MVC) architectural pattern:
@@ -85,10 +78,6 @@ This project strictly follows the Model-View-Controller (MVC) architectural patt
 - **Controller**: Manages user input and updates the model and view accordingly (TetrisController).
 
 This separation allows for easier maintenance, testing, and potential future enhancements.
-
-## Dependencies
-
-This project uses standard Java libraries and does not require any external dependencies.
 
 
 ## Future Enhancements
