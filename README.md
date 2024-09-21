@@ -1,3 +1,5 @@
+<img align="right" width=200 src="/rmp/inGame.png">
+
 # Tetris in Java
 
 ## Project Overview
@@ -86,20 +88,10 @@ This separation allows for easier maintenance, testing, and potential future enh
 
 This project uses standard Java libraries and does not require any external dependencies.
 
-## Author
-
-Alper Yarenbasi
-
-## Acknowledgements
-
-This project was created as part of the INF101 course at the University of Bergen. Special thanks to the course instructors and fellow students for their support and feedback throughout the development process.
 
 ## Future Enhancements
 
 Potential areas for future improvement include:
 - Implementing difficulty levels
-- Adding a high score system
 - Creating additional visual themes
 - Introducing multiplayer functionality
-
-Contributions and suggestions for improvements are welcome!
