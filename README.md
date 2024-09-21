@@ -86,3 +86,45 @@ Potential areas for future improvement include:
 - Implementing difficulty levels
 - Creating additional visual themes
 - Introducing multiplayer functionality
+- 
+Tetris in Java
+
+[Previous content remains the same...]
+
+## Testing
+
+This project includes a comprehensive suite of unit tests to ensure the correctness and reliability of the game components. The tests are implemented using JUnit 5 and cover various aspects of the game logic and data structures.
+
+### Test Classes
+
+- **GridTest**: Tests the Grid class functionality, including:
+  - Grid dimensions
+  - Getting and setting grid values
+  - Handling null values
+  - Coordinate validation
+  - Iterator implementation
+
+- **GridCellTest**: Verifies the GridCell class, focusing on:
+  - Equality and hash code implementation
+  - Value and position retrieval
+
+- **CellPositionTest**: Ensures the correct behavior of the CellPosition class, including:
+  - Coordinate representation
+  - Equality and hash code implementation
+
+- **TestTetrisBoard**: Tests the TetrisBoard class, covering:
+  - Pretty string representation
+  - Row removal functionality
+
+- **TestPatternedTetrominoFactory**: Verifies the PatternedTetrominoFactory class, which is useful for testing predictable tetromino sequences.
+
+- **TestTetromino**: Ensures the correct behavior of the Tetromino class, including:
+  - Hash code and equals implementation
+  - Tetromino creation and manipulation
+
+### Key Test Features
+
+- **Assertion Testing**: Extensive use of JUnit assertions to verify expected behaviors.
+- **Edge Case Testing**: Includes tests for boundary conditions and invalid inputs.
+- **Factory Pattern Testing**: Verifies the correct implementation of tetromino generation.
+- **Data Structure Verification**: Ensures the correct behavior of custom data structures like Grid and GridCell.
