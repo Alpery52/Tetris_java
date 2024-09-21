@@ -21,9 +21,9 @@ The project is organized into several packages, adhering to the MVC pattern:
 ### Controller
 - `no.uib.inf101.tetris.controller`: Houses the game controller.
 
-<img align="right" width=200 src="/rmp/GameOver.png">
 ### Additional Components
 - `no.uib.inf101.tetris.midi`: Includes the background music functionality.
+<img align="right" width=200 src="/rmp/GameOver.png">
 
 ## Key Components
 
