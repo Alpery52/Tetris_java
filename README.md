@@ -86,10 +86,7 @@ Potential areas for future improvement include:
 - Implementing difficulty levels
 - Creating additional visual themes
 - Introducing multiplayer functionality
-- 
-Tetris in Java
 
-[Previous content remains the same...]
 
 ## Testing
 
