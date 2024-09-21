@@ -9,14 +9,12 @@ This project is an implementation of the classic game Tetris in Java. It follows
 ## Project Structure
 
 The project is organized into several packages, adhering to the MVC pattern:
+<img align="right" width=200 src="/rmp/start.png">
 
 ### Model
 - `no.uib.inf101.grid`: Contains classes for managing the game grid.
 - `no.uib.inf101.model`: Includes the game model and tetromino-related classes.
   
-
-<img align="right" width=200 src="/rmp/start.png">
-
 ### View
 - `no.uib.inf101.tetris.view`: Contains classes for the game view.
 
